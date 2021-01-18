@@ -977,7 +977,7 @@ summary(age_number)
 
 ### `cut_width()`
 
-The `cut_interval()` takes a `width` argument which specifies the width of each interval and a `boundary` argument for centering intervals. By default boundary is equal to 0.5 which may led to intervals have non-integer end points. I usually set boundary to 0 so that the intervals always fall between integer values.
+The `cut_width()` function takes a `width` argument which specifies the width of each interval and a `boundary` argument for centering intervals. By default boundary is equal to 0.5 which may led to intervals have non-integer end points. I usually set boundary to 0 so that the intervals always fall between integer values.
 
 ```{r}
 # Original variable
