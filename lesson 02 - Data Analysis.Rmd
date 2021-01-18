@@ -547,7 +547,7 @@ cumsum(numeric_data)
 
 ```{r}
 # Median of the cumulative sum
-max(median(cumsum(numeric_data)))
+median(cumsum(numeric_data))
 
 ```
 
