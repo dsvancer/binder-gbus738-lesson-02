@@ -4,13 +4,7 @@ author: "David Svancer"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, 
-                      message = FALSE, 
-                      warning = FALSE,
-                      comment = "")
-
 options(dplyr.summarise.inform = FALSE)
-
 ```
 
 
